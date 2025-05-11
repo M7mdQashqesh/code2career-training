@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://imgs.search.brave.com/Q-Wvs434rbUFJ-ayxoPy6Vt6UeP7JMx0mk3jy1q6rnQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9z/bW9vdGgtZ3JlZW4t/YmFja2dyb3VuZF81/Mzg3Ni0xMDg0NjQu/anBnP3NlbXQ9YWlz/X2h5YnJpZCZ3PTc0/MA");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  text-align: center;
+}
+
+.data h1 {
+  font-size: 40px;
+  color: goldenrod;
+}
+
+.data p {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.data button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  background-color: goldenrod;
+  color: green;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
