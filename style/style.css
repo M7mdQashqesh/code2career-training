@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://imgs.search.brave.com/IeNCtB1PLwtC6PTdN9da85dAFg45VVaqHgzECg-EkN0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9jb25jcmV0ZS1i/YWNrZ3JvdW5kLXRl/eHR1cmUtd2FsbHBh/cGVyLXdoaXRlLXRl/eHR1cmVkLXdhbGxf/MTE4MDQ3LTQ3NTku/anBnP3NlbXQ9YWlz/X2h5YnJpZCZ3PTc0/MA");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.data {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns button{
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+}
